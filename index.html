@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <title>Esercizio: Struttura Discord</title>
 
   <link rel="stylesheet" href="Assets/Style/style.css">
@@ -108,12 +111,19 @@
   <section class="footer-top">
     <div class="container social">
       <span>Il tuo posto per parlare</span>
-       <p>
-        <select name="language" id="language">
-          <option value="it">italiano</option>
-          <option value="en">english</option>
-        </select>
-      </p>
+      <div class="flag-span">
+        <span>Italiano</span>
+      </div> 
+      
+
+      <nav>
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+        </ul>
+      </nav>
     </div>
     <div class="container link">
       <div class="column">
@@ -180,7 +190,8 @@
   </section> 
   <section class="footer-bottom">
           
-      <button class="column"><img class="logo" src="Assets/img/logo.svg" alt="Logo"></button>
+      <div class="column"><img class="logo" src="Assets/img/logo.svg" alt="Logo">
+      </div>
       <a class="button column" href="#">Registrati</a>
         
   </section>

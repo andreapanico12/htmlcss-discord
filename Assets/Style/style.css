@@ -52,6 +52,10 @@ header{
   color: white;
 }
 
+.header-top .row .column ul a:hover{
+  text-decoration: underline;
+}
+
 .row .column{
   padding: auto;
   margin: auto;
@@ -67,6 +71,10 @@ header{
   padding: 10px;
   border-radius: 30px;
   background-color: white;
+}
+
+.button a:hover{
+ text-decoration: underline;
 }
 
 .box{
@@ -93,7 +101,7 @@ header{
   padding: 0 15px;
 
 }
-.header-top .row .column .logo{
+.logo{
   width: 120px;
   height: 30px;
 }
@@ -185,7 +193,10 @@ section.feature.gray.cta .button a{
 footer{
   padding: 30px 160px;
   background-color: #23272a;
-  height: 665px;
+}
+
+.footer-bottom{
+  margin-top: 20px;
 }
 
 footer section{
@@ -194,19 +205,22 @@ footer section{
 
 footer .footer-top{
   padding: 20px;
-  height: 500px;
+  height: 400px;
+  border-bottom: 1px solid darkgray;
 }
 
 .footer-top .social span{
   font-size: 26px;
   font-weight: 800;
   color: #688ed5;
-
+  padding-bottom: 20px;
 
 }
 
+
 .footer-top .link .column h5{
   color: #688ed5;
+  padding-bottom: 12px;
 }
 
 .footer-top .link .column ul a{
@@ -214,6 +228,11 @@ footer .footer-top{
   color: white;
   font-weight: 600;
 }
+
+.footer-top .link .column ul a:hover{
+  text-decoration: underline;
+}
+
 
 footer .footer-top .container.link{
   width: 15%;
@@ -228,6 +247,14 @@ footer .footer-top .container.social{
 footer .footer-bottom{
   width: 100%;
   justify-content: space-between;
+
 }
+.footer-bottom .button{
+  background-color: #688ed5;
+  font-size: 12px;
+  color: white;
+
+}
+
 
 

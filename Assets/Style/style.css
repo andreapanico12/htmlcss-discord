@@ -28,6 +28,7 @@ header{
 
 .header-top{
   border: 1px solid black;
+  padding-bottom: 30px;
 }
 
 .container{
@@ -61,18 +62,19 @@ header{
 }
 .header-bottom{
   text-align: center;
-  padding: 80px 400px;
 
 }
 
-.button.column{
+.button{  
   display: inline-block;
-  border: 1px solid black;
   padding: 10px;
   border-radius: 30px;
   background-color: white;
 }
 
+.box{
+  width: 600px;
+}
 .header-top .row .login{
   padding: 3px;
   font-size: 14px;
@@ -133,15 +135,14 @@ main .feature .image{
 }
 
 main .gray{
-  background-color: lightgray;
+  background-color: #f6f6f6;
   
 }
-
-.feature .image .feature-img{
+.feature-img{
   max-width: 100%;
 }
 
-.feature .text span{
+main .feature span{
   font-size: 38px;
   font-weight: 900; 
 }
@@ -153,14 +154,35 @@ main .gray{
   margin-top: 8px;
 }
 
+
+
 section.feature.gray.cta{
+  padding-bottom: 30px;
+  text-align: center;
   flex-direction: column;
 }
 
-section.feature.gray.cta .row{
-  justify-content: center;
-  padding-bottom: 30px;
-  text-align: center;
+section.feature.gray.cta p{
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  background-image: url(/Assets/img/stars.svg);
+  background-size: contain;
+  background-repeat: none;
+  background-position: center;
+}
+
+section.feature.gray.cta .button{
+  background-color: #8da2e2;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+section.feature.gray.cta .button a{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 footer{

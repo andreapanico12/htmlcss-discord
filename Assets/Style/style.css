@@ -31,7 +31,7 @@ header{
 }
 
 .container{
-    max: width 800px;
+    max-width: 800px;
     margin: 0 auto;
 }
   
@@ -63,6 +63,7 @@ header{
 }
 .header-bottom{
   text-align: center;
+  max-width: 800px;
 
 }
 
@@ -85,12 +86,17 @@ header{
   font-size: 14px;
 }
 
+.button.column a{
+  font-size: 14px;
+}
+
 .button.column.browser{
   background-color: #25262a;
 }
 
 .button.column.browser a{
   color: white;
+  font-size: 14px;
 }
 
 .row .column ul{
@@ -175,7 +181,7 @@ section.feature.gray.cta p{
   background-image: url(/Assets/img/stars.svg);
   background-size: 531px 49px ;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center;
 }
 
 section.feature.gray.cta .button{
